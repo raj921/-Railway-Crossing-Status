@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Disable JNDI resources since we're using direct JDBC -->
+    <Manager pathname="" />
+    
+    <!-- Enable JSP compilation -->
+    <JarScanner>
+        <JarScanFilter defaultPluggabilityScan="true" defaultTldScan="true" tldSkip="*.jar" />
+    </JarScanner>
+</Context>
